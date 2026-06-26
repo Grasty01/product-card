@@ -4,17 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
     <title>My product card</title>
   </head>
   <body>
     <h1 class="page-title">Mon Catalogue Produits</h1>
     <article>
       <header class="card-header">
-        <img src="" alt="Appareil photo hybride Sony Alpha 7C II noir" />
-        <div class="card-badge">-25%</div>
+        <img
+          src="img/image.jpeg"
+          alt="Appareil photo hybride Sony Alpha 7C II noir"
+        />
       </header>
       <div class="card-body">
-        <p>Photographie</p>
+        <p class="card-category">Photographie</p>
         <h2>Sony Alpha 7C II</h2>
         <p class="card-description">
           Appareil photo hybride plein format compact. Autofocus IA avancé,
@@ -22,9 +30,9 @@
         </p>
       </div>
       <footer class="card-footer">
-        <div>
-          <p>15 000 FCFA</p>
-          <p>En stock</p>
+        <div class="card-footer-price">
+          <p class="card-price">15 000 FCFA</p>
+          <p class="card-stock">En stock</p>
         </div>
         <button class="card-btn">Ajouter au panier</button>
       </footer>
